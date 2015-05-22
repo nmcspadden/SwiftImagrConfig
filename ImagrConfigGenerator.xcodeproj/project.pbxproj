@@ -12,6 +12,7 @@
 		018C603A1B0ECFFF00931475 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018C60391B0ECFFF00931475 /* Images.xcassets */; };
 		018C603D1B0ECFFF00931475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018C603B1B0ECFFF00931475 /* Main.storyboard */; };
 		018C60491B0ED00000931475 /* ImagrConfigGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018C60481B0ED00000931475 /* ImagrConfigGeneratorTests.swift */; };
+		018C60531B0ED0E200931475 /* imagr_config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 018C60521B0ED0E200931475 /* imagr_config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		018C60421B0ED00000931475 /* ImagrConfigGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagrConfigGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		018C60471B0ED00000931475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		018C60481B0ED00000931475 /* ImagrConfigGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagrConfigGeneratorTests.swift; sourceTree = "<group>"; };
+		018C60521B0ED0E200931475 /* imagr_config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = imagr_config.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		018C60321B0ECFFF00931475 /* ImagrConfigGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				018C60521B0ED0E200931475 /* imagr_config.plist */,
 				018C60351B0ECFFF00931475 /* AppDelegate.swift */,
 				018C60371B0ECFFF00931475 /* ViewController.swift */,
 				018C60391B0ECFFF00931475 /* Images.xcassets */,
@@ -189,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				018C60531B0ED0E200931475 /* imagr_config.plist in Resources */,
 				018C603A1B0ECFFF00931475 /* Images.xcassets in Resources */,
 				018C603D1B0ECFFF00931475 /* Main.storyboard in Resources */,
 			);

@@ -7,9 +7,19 @@
 //
 
 import Cocoa
+import AppKit
+
+// MARK: == imagr_config.plist keys ==
+let passwordKey = "password"
+let workflowsKey = "workflows"
+// MARK: -
 
 class ViewController: NSViewController {
 
+    // MARK: == Variables ==
+    var password = ""
+    var workflows: [Dictionary<String, String>] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +32,20 @@ class ViewController: NSViewController {
         }
     }
 
+    func loadPlistData() {
+        let myFiledialog:NSOpenPanel = NSOpenPanel()
+        myFiledialog.canChooseFiles = true
+        myFiledialog.canChooseDirectories = false
+        myFiledialog.canCreateDirectories = false
+        myFiledialog.allowsMultipleSelection = false
+        myFiledialog.runModal()
+        
+        var chosenFile = myFiledialog.URL
+        if (chosenFile != nil) {
+            // do stuff
+            let resultDictionary = NSMutableDictionary(contentsOfURL: chosenFile!)
+        }
+    }
 
 }
 
