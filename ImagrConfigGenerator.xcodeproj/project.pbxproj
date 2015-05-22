@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		018C60361B0ECFFF00931475 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018C60351B0ECFFF00931475 /* AppDelegate.swift */; };
+		018C60381B0ECFFF00931475 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018C60371B0ECFFF00931475 /* ViewController.swift */; };
+		018C603A1B0ECFFF00931475 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 018C60391B0ECFFF00931475 /* Images.xcassets */; };
+		018C603D1B0ECFFF00931475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 018C603B1B0ECFFF00931475 /* Main.storyboard */; };
+		018C60491B0ED00000931475 /* ImagrConfigGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018C60481B0ED00000931475 /* ImagrConfigGeneratorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		018C60431B0ED00000931475 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 018C60281B0ECFFF00931475 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 018C602F1B0ECFFF00931475;
+			remoteInfo = ImagrConfigGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		018C60301B0ECFFF00931475 /* ImagrConfigGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagrConfigGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		018C60341B0ECFFF00931475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018C60351B0ECFFF00931475 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		018C60371B0ECFFF00931475 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		018C60391B0ECFFF00931475 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		018C603C1B0ECFFF00931475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		018C60421B0ED00000931475 /* ImagrConfigGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagrConfigGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		018C60471B0ED00000931475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		018C60481B0ED00000931475 /* ImagrConfigGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagrConfigGeneratorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		018C602D1B0ECFFF00931475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018C603F1B0ED00000931475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018C60271B0ECFFF00931475 = {
+			isa = PBXGroup;
+			children = (
+				018C60321B0ECFFF00931475 /* ImagrConfigGenerator */,
+				018C60451B0ED00000931475 /* ImagrConfigGeneratorTests */,
+				018C60311B0ECFFF00931475 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		018C60311B0ECFFF00931475 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				018C60301B0ECFFF00931475 /* ImagrConfigGenerator.app */,
+				018C60421B0ED00000931475 /* ImagrConfigGeneratorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		018C60321B0ECFFF00931475 /* ImagrConfigGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				018C60351B0ECFFF00931475 /* AppDelegate.swift */,
+				018C60371B0ECFFF00931475 /* ViewController.swift */,
+				018C60391B0ECFFF00931475 /* Images.xcassets */,
+				018C603B1B0ECFFF00931475 /* Main.storyboard */,
+				018C60331B0ECFFF00931475 /* Supporting Files */,
+			);
+			path = ImagrConfigGenerator;
+			sourceTree = "<group>";
+		};
+		018C60331B0ECFFF00931475 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				018C60341B0ECFFF00931475 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		018C60451B0ED00000931475 /* ImagrConfigGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				018C60481B0ED00000931475 /* ImagrConfigGeneratorTests.swift */,
+				018C60461B0ED00000931475 /* Supporting Files */,
+			);
+			path = ImagrConfigGeneratorTests;
+			sourceTree = "<group>";
+		};
+		018C60461B0ED00000931475 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				018C60471B0ED00000931475 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		018C602F1B0ECFFF00931475 /* ImagrConfigGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018C604C1B0ED00000931475 /* Build configuration list for PBXNativeTarget "ImagrConfigGenerator" */;
+			buildPhases = (
+				018C602C1B0ECFFF00931475 /* Sources */,
+				018C602D1B0ECFFF00931475 /* Frameworks */,
+				018C602E1B0ECFFF00931475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImagrConfigGenerator;
+			productName = ImagrConfigGenerator;
+			productReference = 018C60301B0ECFFF00931475 /* ImagrConfigGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		018C60411B0ED00000931475 /* ImagrConfigGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018C604F1B0ED00000931475 /* Build configuration list for PBXNativeTarget "ImagrConfigGeneratorTests" */;
+			buildPhases = (
+				018C603E1B0ED00000931475 /* Sources */,
+				018C603F1B0ED00000931475 /* Frameworks */,
+				018C60401B0ED00000931475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				018C60441B0ED00000931475 /* PBXTargetDependency */,
+			);
+			name = ImagrConfigGeneratorTests;
+			productName = ImagrConfigGeneratorTests;
+			productReference = 018C60421B0ED00000931475 /* ImagrConfigGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		018C60281B0ECFFF00931475 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Sacred Heart";
+				TargetAttributes = {
+					018C602F1B0ECFFF00931475 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					018C60411B0ED00000931475 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 018C602F1B0ECFFF00931475;
+					};
+				};
+			};
+			buildConfigurationList = 018C602B1B0ECFFF00931475 /* Build configuration list for PBXProject "ImagrConfigGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 018C60271B0ECFFF00931475;
+			productRefGroup = 018C60311B0ECFFF00931475 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				018C602F1B0ECFFF00931475 /* ImagrConfigGenerator */,
+				018C60411B0ED00000931475 /* ImagrConfigGeneratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		018C602E1B0ECFFF00931475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018C603A1B0ECFFF00931475 /* Images.xcassets in Resources */,
+				018C603D1B0ECFFF00931475 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018C60401B0ED00000931475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		018C602C1B0ECFFF00931475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018C60381B0ECFFF00931475 /* ViewController.swift in Sources */,
+				018C60361B0ECFFF00931475 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		018C603E1B0ED00000931475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				018C60491B0ED00000931475 /* ImagrConfigGeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		018C60441B0ED00000931475 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 018C602F1B0ECFFF00931475 /* ImagrConfigGenerator */;
+			targetProxy = 018C60431B0ED00000931475 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		018C603B1B0ECFFF00931475 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				018C603C1B0ECFFF00931475 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		018C604A1B0ED00000931475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		018C604B1B0ED00000931475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		018C604D1B0ED00000931475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ImagrConfigGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		018C604E1B0ED00000931475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ImagrConfigGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		018C60501B0ED00000931475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImagrConfigGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImagrConfigGenerator.app/Contents/MacOS/ImagrConfigGenerator";
+			};
+			name = Debug;
+		};
+		018C60511B0ED00000931475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImagrConfigGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImagrConfigGenerator.app/Contents/MacOS/ImagrConfigGenerator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		018C602B1B0ECFFF00931475 /* Build configuration list for PBXProject "ImagrConfigGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018C604A1B0ED00000931475 /* Debug */,
+				018C604B1B0ED00000931475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		018C604C1B0ED00000931475 /* Build configuration list for PBXNativeTarget "ImagrConfigGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018C604D1B0ED00000931475 /* Debug */,
+				018C604E1B0ED00000931475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		018C604F1B0ED00000931475 /* Build configuration list for PBXNativeTarget "ImagrConfigGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				018C60501B0ED00000931475 /* Debug */,
+				018C60511B0ED00000931475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 018C60281B0ECFFF00931475 /* Project object */;
+}
